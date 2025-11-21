@@ -1,0 +1,20 @@
+{
+  "name": "normandie-rp",
+  "version": "1.0.0",
+  "description": "Bot Normandie RP — leveling, modération, sondages, économie RP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "Routier87",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^7.8.7"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
